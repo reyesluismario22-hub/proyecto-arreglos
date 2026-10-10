@@ -1,25 +1,34 @@
-# Proyecto: Arreglos y Vectores — Sistema de Calificaciones
+# Sistema de Calificaciones con Arreglos en Python
+
+Proyecto desarrollado por: **reyesluismario22-hub**
+Fecha: 10 de octubre de 2026
 
 ## Descripción
-Programa desarrollado en Python que utiliza arreglos para almacenar, consultar, modificar y procesar calificaciones de estudiantes.
+Programa que utiliza **arreglos (listas unidimensionales)** para gestionar, calcular y actualizar las calificaciones de 10 estudiantes. Realiza operaciones estadísticas y guarda los resultados en un archivo de texto.
 
-## Objetivo
-Comprender y aplicar los conceptos de arreglos, índices y vectores en la resolución de problemas prácticos de programación.
+## Objetivos
+- Aplicar el uso de arreglos para almacenar datos
+- Calcular promedio, nota mayor y nota menor
+- Contar aprobados y reprobados
+- Actualizar calificaciones con estímulo de +5 puntos
+- Guardar información en archivo externo
 
-## Lenguaje utilizado
-Python 3
+## Estructura de Archivos
+| Archivo | Descripción |
+|---|---|
+| calificaciones.py | Código fuente del programa |
+| README.md.txt | Documentación del proyecto |
+| calificaciones.txt | Archivo generado con resultados |
 
 ## Funcionalidades
-- Mostrar todas las calificaciones
-- Acceder a un elemento por su índice
-- Calcular promedio, nota mayor y menor
-- Contar aprobados y reprobados
-- Modificar una calificación
-- Mostrar el vector actualizado
+1. **Ingreso de datos**: Solicita 10 calificaciones con validación (0–100)
+2. **Cálculos**:
+   - Promedio general del grupo
+   - Calificación más alta y más baja
+   - Cantidad de aprobados (≥70) y reprobados (<70)
+3. **Actualización**: Suma 5 puntos a notas menores de 70, sin exceder 100
+4. **Almacenamiento**: Guarda todos los resultados en `calificaciones.txt`
 
 ## Ejecución
-Abre una terminal y escribe:
 ```bash
 python calificaciones.py
-Estudiante
-[LUIS MARIO REYES RAMIREZ]
